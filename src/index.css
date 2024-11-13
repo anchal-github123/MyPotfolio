@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+  background-color: black;
+  color: white;
+}
+#root{
+  max-width: 1280px;
+  margin:0 auto;
+  padding: 0 2rem 0 2rem;
+}
+.container{
+  padding:2rem 0 2rem 0 ;
+}
+nav a:hover{
+  color: rgb(138, 42, 233);
+}
