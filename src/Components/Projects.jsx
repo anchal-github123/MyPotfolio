@@ -42,7 +42,7 @@ function Projects() {
         return(
 
   <div key={ind} className=' rounded-lg bg-slate-950 flex flex-col items-center'>
-  <div className='text-purple-600'>{ele.pname}</div>
+  <div className=''>{ele.pname}</div>
   <img src={ele.pimg} width={200} height={200}></img>
 <div className='flex items-center gap-4 p-4'>
 <button className='border p-1 rounded-lg bg-purple-600'>   
